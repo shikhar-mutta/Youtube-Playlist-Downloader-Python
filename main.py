@@ -10,7 +10,7 @@ for video_link in playlist:
     count=count+1
     if count >= 5 :
         try:
-            YouTube(video_link , on_progress_callback=on_progress).streams.filter(res="720p").first().download("DBMS\Pathak Sir")
+            YouTube(video_link , on_progress_callback=on_progress).streams.filter(res="720p").first().download(output_path="DBMS\Pathak Sir", filename_prefix=str(count) +" ")
             print(str(count)+" Completed    ")
 
         except:
