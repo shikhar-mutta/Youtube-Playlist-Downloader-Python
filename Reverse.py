@@ -16,8 +16,7 @@ while count not in [0]:
                 print(str(count) + " Completed " )
 
             except:
-                print(str(count) + " unavailable" + YouTube(video_link).get_highest_resolution())
-                
+                print(str(count) + "---------unavailable---------" + str(YouTube(video_link).title))    
                 
                 
 # filter(res="7200p").first()
