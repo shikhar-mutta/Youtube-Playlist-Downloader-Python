@@ -13,8 +13,7 @@ for video_link in playlist:
             print(str(count)+" Completed ")
 
         except:
-            print(str(count) + " unavailable"+ YouTube(video_link).get_highest_resolution())
-
+             print(str(count) + "---------unavailable---------" + str(YouTube(video_link).title))
 
 
 # # list = ["https://www.youtube.com/watch?v=x0OLat0fkzQ","https://www.youtube.com/watch?v=8l4ZjN4MXuQ","https://www.youtube.com/watch?v=C12WRs6LiQs","https://www.youtube.com/watch?v=rt6sHVfzjWM","https://www.youtube.com/watch?v=9Q6gFxqt9SU", "https://www.youtube.com/watch?v=SbSTTfnEMZM&t=899s" , "https://www.youtube.com/watch?v=B7cxLO1qKSw","https://www.youtube.com/watch?v=C2_L0wpY0iQ", "https://www.youtube.com/watch?v=OEP-Q3wVIpI" ]
