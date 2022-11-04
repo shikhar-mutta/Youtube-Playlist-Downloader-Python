@@ -4,7 +4,7 @@ from pytube.cli import on_progress
 
 
 playlist = Playlist(input('Enter URL: \n')).video_urls
-count =0
+count = 0
 for video_link in playlist:
     count=count+1
     if count > 0: 
